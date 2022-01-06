@@ -1,0 +1,13 @@
+Write a Sql Queries?
+
+Question 1: To get name of students whose marks are greater than 60 in maths?
+
+Answer: SELECT * FROM students WHERE marks > 60;
+
+Question 2: To get employees id having salary in between 40000 and 60000?
+
+Answer: SELECT * FROM employees WHERE salary BETWEEN 40000 AND 60000;
+
+Question 3: To get users list who registerd in last 7 days?
+
+Answer: SELECT * FROM users WHERE register_date > now() - interval 1 week;
